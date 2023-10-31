@@ -1,6 +1,14 @@
-# cilliandevops-front-end
+# 希里安前端学习指南
+# cilliandevops frontend guide
+- **2023年10月31日**
+# 注意： 相关内容已迁移至文档网站docs.cillian.website
+# Please note: The relevant content has been migrated to the documentation website at docs.cillian.website.
+## [点击这里前往](https://www.google.com)
+## [Click here to go](https://www.google.com)
+
 ##  前端知识总结
-### 前端模块
+
+---
 ## 1、JavaScript
 ## 2、CSS/HTML
 ## 3、浏览器/应用
