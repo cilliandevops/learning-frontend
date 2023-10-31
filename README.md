@@ -48,3 +48,37 @@ DOM、CSSOM、事件、API总集合
 
 知识框架
 
+---
+## Vue
+
+### 官网
+
+<https://cn.vuejs.org/>
+
+### 构建工具
+
+vue-cli(webpack )
+
+```js
+npm install -g @vue/cli
+vue create my-project
+```
+
+https://cli.vuejs.org/zh/
+
+vite(下一代的前端工具链)
+
+https://vitejs.cn/
+
+```js
+npm create vite@latest
+```
+
+## UI组件
+
+### elementplus
+
+### antdesign
+
+
+
