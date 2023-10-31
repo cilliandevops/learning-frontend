@@ -630,8 +630,8 @@ CommonJS 使用 require() 方法进行模块的导入，例如：const foo = req
 
 https://cn.windicss.org/
 
-点击vite
-
+点击vite集成图标
+```js
 npm i -D vite-plugin-windicss windicss
 
 引入vite.config.js
@@ -640,7 +640,7 @@ plugins: [vue(),WindiCSS()],
 
 引入main.ts
 import 'virtual:windi.css'
-
+```
 
 ### Unknown at rule @applycss(unknownAtRules)问题解决
 
@@ -651,7 +651,8 @@ https://github.com/tailwindlabs/tailwindcss/discussions/5258
 
 这个先不着急解决吧
 
-2023年7月16日11:11:00
+- 2023年7月16日11:11:00
+```js
 安装在开发环境依赖
 npm install --save-dev stylelint stylelint-config-standard
 
@@ -692,9 +693,10 @@ module.exports = {
 
 
 重启vs警告消失
-
+```
 ### windi设置别名
 
+```js
 export default {
   alias: {
     'hstack': 'flex items-center',
@@ -730,15 +732,15 @@ extract: {
     // if you are excluding files, make sure you always include node_modules and .git
     exclude: ['node_modules', '.git', 'dist'],
   },
-
+```
 
 ### 注意
 
 1. 一个项目尽量用一种包管理器，比如只使用npm或者pnpm
 
-尽量用npm可以更新package.json
-可以使用ncu
-2. vue-cli构建转向vite构建，代码需要改动
+尽量用npm更新package.json 可以使用ncu
+
+1. vue-cli构建转向vite构建，代码需要改动
    比如静态资源的引入
 
    Uncaught (in promise) ReferenceError: require is not defined 一模一样的代码在vuecli构建正常，使用vite报这个错
